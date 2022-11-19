@@ -1,1 +1,100 @@
 /* Add your own styles */
+body{
+    margin:0 auto;
+    position:relative;
+    
+}
+
+img{
+    width:100px;
+    height:100px;
+    margin-left: 250px;
+    opacity: 80%;
+    border-radius: 50%;
+}
+
+
+header{
+    display:flex;
+    background-color: #0077ff;
+    padding: 50px;
+    margin-bottom: 20px;
+   
+    
+
+}
+
+h1{
+   
+    color: #fff;
+    text-align: right;
+    margin-left: 100px;
+    font-family: Garamond;
+    font-size: 40px;
+    
+}
+
+#controls{
+    padding: 10px;
+    margin-left:425px;
+   
+}
+
+ #country{
+    padding: 10px; 
+    
+ }
+
+
+
+#lookup{
+   padding: 10px;
+   background-color: #8aa2ee;
+   border-radius: 5%;
+   border: 1px solid #0077ff;
+   color:#000b0f;
+   box-shadow: 2px 1px 2px 1px #000b0f;
+   margin-left: 5px;
+   
+}
+
+#lookupcities{
+    padding: 10px;
+    background-color: #8aa2ee;
+    border-radius: 5%;
+    border: 1px solid #0077ff;
+    color:#000b0f;
+    box-shadow: 2px 1px 2px 1px #000b0f;
+    margin-left: 5px;
+   
+ }
+ #lookup:hover{
+    background-color:#002ead;
+      transition: 0.7s;
+ }
+    #lookupcities:hover{
+    background-color:#002ead;
+      transition: 0.7s;
+ }
+
+
+
+table th{
+   border:2px solid #0077ff;
+   background-color: #0077ff;
+   text-align: center;
+   opacity: 90%;
+   
+   
+ }
+ 
+ table td{
+   text-align: center;
+   
+  }
+
+  #result{
+      margin-left: 300px;
+  }
+
+  
