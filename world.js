@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded",function(){
 
         let button =document.getElementById("lookup");
+        const result=document.getElementById("result");
 
         button.addEventListener("click",function(element){
         element.preventDefault();
@@ -11,10 +12,10 @@ document.addEventListener("DOMContentLoaded",function(){
 
                .then(response => response.text())
 
-               .then((data) => document.write(`${data}`))
+               .then((data) => {result.innerHTML=data;})
                
 
-               .catch (error =>console.log(error));
+               .catch ((error) =>console.log(error));
         });
 
 
